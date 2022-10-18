@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Build Project</title>
+    <script
+      src="https://kit.fontawesome.com/e8373eb5f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        <a href="#"
+          ><img id="logo" src="epicode_logo.png" alt="epicode_logo"
+        /></a>
+      </div>
+      <!-- <div ><img src="epicode_logo.png" alt="logo-picture" /></div> -->
+      <div id="centered">
+        <h2><b>Tell us how it's going</b></h2>
+        <p id="feedbackQuestion">
+          From 0 to 10, how likely would you recommend EPICODE <br />to a friend
+          or a collegue
+        </p>
+        <i class="fa-sharp fa-solid fa-star" class="size" onclick="changeColor1(event)"  id="one"></i>
+        <i class="fa-sharp fa-solid fa-star" class="size" onclick="changeColor2(event)"  id="two"></i>
+        <i class="fa-sharp fa-solid fa-star" class="size" onclick="changeColor3(event)"  id="three"></i>
+        <i class="fa-sharp fa-solid fa-star" class="size" onclick="changeColor4(event)"  id="four"></i>
+        <i class="fa-sharp fa-solid fa-star" class="size" onclick="changeColor5(event)"  id="five"></i>
+        <i class="fa-sharp fa-solid fa-star" class="size" onclick="changeColor6(event)"  id="six"></i>
+        <i class="fa-sharp fa-solid fa-star" class="size" onclick="changeColor7(event)"  id="seven"></i>
+        <i class="fa-sharp fa-solid fa-star" class="size" onclick="changeColor8(event)"  id="eight"></i>
+        <i class="fa-sharp fa-solid fa-star" class="size" onclick="changeColor9(event)"  id="nine"></i>
+        <i class="fa-sharp fa-solid fa-star" class="size" onclick="changeColor10(event)"  id="ten"></i>
+        <p>Leave us an open feedback about your experience so far</p>
+        <input type="text" id="input" placeholder="Write your comment here" />
+        <hr />
+
+        <button id="proceed">MORE INFO</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
